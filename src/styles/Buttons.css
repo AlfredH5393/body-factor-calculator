@@ -1,0 +1,17 @@
+:root{
+  --color-purple:  #8667F0;
+  --color-purple-hover: #A790F4;
+  --color-purple-disabled: #413179;
+
+}
+
+.btn-purple {
+    background-color: var(--color-purple) ;
+}
+
+.btn-purple:disabled{
+    background-color: var(--color-purple-disabled);
+}
+/* .btn-purple-hover:hover {
+    back
+} */

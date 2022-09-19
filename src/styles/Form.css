@@ -1,0 +1,13 @@
+:root{
+    --black: #000;
+    --white: #FFF;
+    --gray: #2E2E30
+}
+.input-number{
+    border-radius: 20px;
+    padding: 8px;
+    background-color: var(--black);
+    color: var(--white) ;
+    border: 1px solid var(--gray);
+}
+

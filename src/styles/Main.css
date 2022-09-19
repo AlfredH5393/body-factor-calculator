@@ -1,0 +1,96 @@
+
+.col1, .col2 {
+    width: 50%
+}
+
+.col1 {
+    margin-left: 7rem;
+}
+
+.col2 {
+    padding-left: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 7rem;
+}
+.text-info{
+    color: #838383;
+}
+
+.content-indicator{
+    width: 100%;
+    padding: 4rem;
+    border-radius:10px;
+    /* margin-top: 5rem ; */
+}
+
+.indicators-point {
+    margin-top:2rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content :space-between;
+    align-items: center;
+}
+.content-indicator-color{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+
+}
+.bg-gradient-indicator {
+    width: 100%;
+    background: hsla(198, 100%, 45%, 1);
+    background: linear-gradient(10deg, hsla(198, 100%, 45%, 1) 0%, hsla(142, 100%, 31%, 1) 25%, hsla(73, 75%, 43%, 1) 50%, hsla(48, 100%, 50%, 1) 75%, hsla(22, 71%, 48%, 1) 100%);
+    background: -moz-linear-gradient(10deg, hsla(198, 100%, 45%, 1) 0%, hsla(142, 100%, 31%, 1) 25%, hsla(73, 75%, 43%, 1) 50%, hsla(48, 100%, 50%, 1) 75%, hsla(22, 71%, 48%, 1) 100%);
+    background: -webkit-linear-gradient(10deg, hsla(198, 100%, 45%, 1) 0%, hsla(142, 100%, 31%, 1) 25%, hsla(73, 75%, 43%, 1) 50%, hsla(48, 100%, 50%, 1) 75%, hsla(22, 71%, 48%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00a3e7", endColorstr="#009f3a", GradientType=1 );
+}
+
+.indicator-size{
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+.indicator-1 {
+    background-color: #00A3E7;
+}
+
+.indicator-2 {
+    background-color: #009F3A;
+}
+
+.indicator-3 {
+    background-color: #9EC11C;
+}
+
+.indicator-4 {
+    background-color: #FDCB00;
+}
+
+.indicator-5 {
+    background-color: #D26423;
+}
+
+@media only screen and (max-width: 1027px){
+   /* .col1, .col-2 {
+        width: 100%;
+   } */
+   .main {
+        flex-direction: column;
+   }
+
+   .col1{
+     width: 100%;
+     margin-left: 0px;
+   }
+   .col2 {
+    width: 100%;
+    margin: 0px;
+    padding-left: 0px;
+   }
+}
